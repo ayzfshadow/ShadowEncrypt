@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "E:\\ayzf\\dev-Project\\shadow\\ShadowEncrypt\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\idea\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\ayzf\\dev-Project\\shadow\\ShadowEncrypt\\app\\.cxx\\Debug\\72362a5f\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\idea\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\ayzf\\dev-Project\\shadow\\ShadowEncrypt\\app\\.cxx\\Debug\\72362a5f\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "shadowencrypt-Debug-x86_64": {
+      "buildCommandComponents": [
+        "D:\\idea\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\ayzf\\dev-Project\\shadow\\ShadowEncrypt\\app\\.cxx\\Debug\\72362a5f\\x86_64",
+        "shadowencrypt"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "shadowencrypt",
+      "output": "E:\\ayzf\\dev-Project\\shadow\\ShadowEncrypt\\app\\build\\intermediates\\cxx\\Debug\\72362a5f\\obj\\x86_64\\libshadowencrypt.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
