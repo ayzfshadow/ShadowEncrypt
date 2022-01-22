@@ -1,7 +1,0 @@
-Executable : D:\idea\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
-arguments : 
--C
-E:\ayzf\dev-Project\shadow\ShadowEncrypt\app\.cxx\Debug\72362a5f\x86_64
-shadowencrypt
-jvmArgs : 
-

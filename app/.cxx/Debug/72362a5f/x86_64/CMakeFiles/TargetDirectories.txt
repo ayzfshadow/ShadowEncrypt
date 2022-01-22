@@ -1,3 +1,0 @@
-E:/ayzf/dev-Project/shadow/ShadowEncrypt/app/.cxx/Debug/72362a5f/x86_64/CMakeFiles/shadowencrypt.dir
-E:/ayzf/dev-Project/shadow/ShadowEncrypt/app/.cxx/Debug/72362a5f/x86_64/CMakeFiles/edit_cache.dir
-E:/ayzf/dev-Project/shadow/ShadowEncrypt/app/.cxx/Debug/72362a5f/x86_64/CMakeFiles/rebuild_cache.dir

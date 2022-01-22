@@ -1,2 +1,0 @@
-ninja: Entering directory `E:\ayzf\dev-Project\shadow\ShadowEncrypt\app\.cxx\Debug\72362a5f\x86_64'
-ninja: no work to do.

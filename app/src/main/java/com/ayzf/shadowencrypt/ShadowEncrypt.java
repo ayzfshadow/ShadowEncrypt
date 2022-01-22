@@ -36,24 +36,28 @@ public class ShadowEncrypt
     {
         if (twoEncrypt)
         {
-            return new StringBuilder(new String(encoder.encode(Arrays.toString(encrypt(text.getBytes())).getBytes()))).reverse().toString();
+            return "==Shadow Encrypt=="+new StringBuilder(new String(encoder.encode(Arrays.toString(encrypt(text.getBytes())).getBytes()))).reverse().toString();
         }
         else
         {
-            return new String(encoder.encode(Arrays.toString(encrypt(text.getBytes())).getBytes()));
+            return "==Shadow Encrypt=="+new String(encoder.encode(Arrays.toString(encrypt(text.getBytes())).getBytes()));
         }
     }
     public String decrypt(String text)
     {
         try
         {
+            if (!text.contains("==Shadow Encrypt=="))
+            {
+                return null;
+            }
             if (twoEncrypt)
             {
-                return new String(decrypt(arraysToStringToLong(new String(decoder.decode(new StringBuilder(text).reverse().toString())))));
+                return new String(decrypt(arraysToStringToLong(new String(decoder.decode(new StringBuilder(text.replaceFirst("==Shadow Encrypt==","")).reverse().toString())))));
             }
             else
             {
-                return new String(decrypt(arraysToStringToLong(new String(decoder.decode(text)))));
+                return new String(decrypt(arraysToStringToLong(new String(decoder.decode(text.replaceFirst("==Shadow Encrypt==",""))))));
             }
         }
         catch (Exception e)

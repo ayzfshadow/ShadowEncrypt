@@ -1,7 +1,0 @@
-[
-{
-  "directory": "E:/ayzf/dev-Project/shadow/ShadowEncrypt/app/.cxx/Debug/72362a5f/x86_64",
-  "command": "D:\\idea\\Sdk\\ndk\\16.1.4479499\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android --gcc-toolchain=D:/idea/Sdk/ndk/16.1.4479499/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/idea/Sdk/ndk/16.1.4479499/sysroot  -Dshadowencrypt_EXPORTS -isystem D:/idea/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem D:/idea/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem D:/idea/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem D:/idea/Sdk/ndk/16.1.4479499/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\shadowencrypt.dir\\ShadowEncrypt.cpp.o -c E:\\ayzf\\dev-Project\\shadow\\ShadowEncrypt\\app\\src\\main\\cpp\\ShadowEncrypt.cpp",
-  "file": "E:\\ayzf\\dev-Project\\shadow\\ShadowEncrypt\\app\\src\\main\\cpp\\ShadowEncrypt.cpp"
-}
-]
